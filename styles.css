@@ -1,0 +1,52 @@
+/* @font-face {
+    font-family: libsans-nn;
+    src: url('fonts/LiberationSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: libsans-ni;
+    src: url('fonts/LiberationSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: libsans-bn;
+    src: url('fonts/LiberationSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: libsans-bi;
+    src: url('fonts/LiberationSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+} */
+
+/* 
+#   how to add liberty sans as of adobe fonts
+##  include "typekit" from adobe. include following line in html.
+<link rel="stylesheet" href="https://use.typekit.net/edi7fzp.css">
+### *OR*
+##  include following line to css
+@import url("https://use.typekit.net/edi7fzp.css");
+
+##  include following lines in css
+font-family: liberation-sans, sans-serif;
+font-style: normal;
+font-weight: 400;
+
+
+*/
+
+@import url("https://use.typekit.net/edi7fzp.css");
+
+body {
+    text-align: center;
+    font-family: liberation-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
