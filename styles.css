@@ -1,31 +1,3 @@
-/* @font-face {
-    font-family: libsans-nn;
-    src: url('fonts/LiberationSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: libsans-ni;
-    src: url('fonts/LiberationSans-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: libsans-bn;
-    src: url('fonts/LiberationSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: libsans-bi;
-    src: url('fonts/LiberationSans-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-} */
-
 /* 
 #   how to add liberty sans as of adobe fonts
 ##  include "typekit" from adobe. include following line in html.
@@ -49,4 +21,23 @@ body {
     font-family: liberation-sans, sans-serif;
     font-style: normal;
     font-weight: 400;
+}
+
+/* body #twt-msg {
+    text-align: center;
+    margin: 5px;
+} */
+
+div #footer-banner {
+    padding: 1px;
+}
+
+.footer {
+    background-color: aqua;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
